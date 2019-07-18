@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+
+body {
+    overflow-x: hidden;
+}
+.navbar{
+    background-color:rgba(31, 25, 25, 0.301);
+    height: 70px;   
+}
+
+.np {
+    color:#e0a2a2ec;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 140%;
+    background-color:rgba(68, 55, 55, 0.185);
+    letter-spacing: 2.5px;
+}
+
+.nrml{
+    color:rgba(238, 228, 228, 0.856);
+    font-weight: 500;
+    font-size: 130%;
+    font-family: 'Arvo', serif;
+    letter-spacing: 3px;
+    
+}
+.braclet{
+    color:red;
+    font-weight: 800;
+}
+
+.logo {
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+    color: white;
+}
+
+.image {
+    max-width: 100%;
+    background-size: cover;
+}
+
+.navbar-nav li {
+    padding-right:30px;
+    letter-spacing: 2px;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover,
+.navbar-dark .navbar-nav .nav-item .nav-link.active {
+    color:rgb(201, 16, 16);
+    font-weight: 700;
+}
+
+.caption {
+    z-index: 1;
+    position: absolute;
+    top:38%;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+}
+.pro {
+color:white; 
+letter-spacing: 10px;
+font-family: 'Monoton', cursive;
+font-size: 250%;
+font-weight:400
+}
+
+.whoE {
+    
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 4px grey;
+    letter-spacing: 5px;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+.fa-envelope{
+    color:#dd4b39;
+}
+
+.fa-youtube {
+    color:red;
+}
+
+.fa-instagram {
+    color:mediumvioletred;
+}
+
+
+.fa-facebook, .fa-envelope, .fa-youtube, .fa-instagram {
+font-size:100px;
+padding: 15px;
+}
+
+.fa-github{
+    font-size:93px;
+    padding: 15px;   
+}
+
+.fa-facebook:hover, .fa-envelope:hover, .fa-youtube:hover, 
+.fa-github:hover, .fa-instagram:hover {
+color:#c9acacec;
+}
+
+
+.fa-github{
+    color:rgb(26, 21, 21);
+}
+
+.graduation{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color:rgb(27, 23, 23);
+    font-weight: 700
+}
+
+.fa-calendar-alt{
+    color:red;
+}
+
+#why{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/grey.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+
+.graduation1{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-weight: 700
+}
+
+.hrf{
+    width: 300px;
+    background-color: rgba(189, 39, 39, 0.568);
+}
+
+.ola{
+    font-weight: 500
+}
+
+.graduation2{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color:rgb(27, 23, 23);
+    font-weight: 500
+}
+
+.graduation3{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: rgb(80, 78, 78);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: rgb(10, 10, 10);
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+                                       left bottom,
+                                       left top,
+                                       color-stop(0.44, rgb(68, 47, 47)),
+                                       color-stop(0.72, rgb(116, 84, 84)),
+                                       color-stop(0.86, rgb(56, 45, 45)));
+                                       
+}
+
+
+
+/* Media Queries */
+
+@media (max-width :767px)
+{
+
+.caption {
+    z-index: 1;
+    position: absolute;
+    top:17%;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 100%;
+    font-size: 70%
+}
+
+
+}
+
+
+
